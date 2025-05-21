@@ -1,0 +1,78 @@
+/* Main App Styles */
+.App {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  text-align: center;
+}
+
+/* Add padding to account for fixed header */
+main {
+  padding-top: 64px; /* Height of the header */
+}
+
+/* Ensure content fills the viewport */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style for the main content area */
+.content {
+  flex: 1;
+  padding: 24px;
+  background-color: #f8fafc;
+}
+
+/* Global utility classes */
+.error-message {
+  background-color: #fee2e2;
+  border-left: 4px solid #ef4444;
+  color: #b91c1c;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+}
+
+.success-message {
+  background-color: #dcfce7;
+  border-left: 4px solid #10b981;
+  color: #047857;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+}
+
+.info-message {
+  background-color: #dbeafe;
+  border-left: 4px solid #3b82f6;
+  color: #1d4ed8;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+}
+
+/* Common heading styles */
+.page-title {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.page-subtitle {
+  margin-bottom: 2rem;
+  color: #64748b;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  margin-top: 64px; /* Height of the AppBar */
+  background-color: #f5f5f5;
+}

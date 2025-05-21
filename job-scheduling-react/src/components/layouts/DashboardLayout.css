@@ -1,0 +1,38 @@
+.dashboard-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  background-color: #f8fafc;
+}
+
+.dashboard-main {
+  flex: 1;
+  padding: 24px;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .dashboard-main {
+    padding: 16px;
+  }
+}
+
+@media (max-width: 640px) {
+  .dashboard-main {
+    padding: 12px;
+  }
+}
+
+.main-content {
+  flex-grow: 1;
+  background-color: #f1f5f9;
+}
+
+.content-container {
+  padding: 2rem;
+  max-width: 1600px;
+  margin: 0 auto;
+} 

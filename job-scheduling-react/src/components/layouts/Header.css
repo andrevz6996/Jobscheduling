@@ -1,0 +1,58 @@
+.header.MuiAppBar-root {
+  background-color: #1e293b !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px !important;
+  min-height: 64px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  margin-left: 2rem;
+}
+
+.nav-link {
+  color: white !important;
+  text-decoration: none;
+  padding: 1rem;
+  margin: 0 0.25rem;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: inherit;
+  display: inline-block;
+}
+
+.nav-link:hover, .nav-link.active {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.logo-link {
+  color: white !important;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.25rem;
+  padding: 1rem;
+  white-space: nowrap;
+}
+
+.logo-link:hover {
+  color: #f0f0f0 !important;
+}
+
+.sign-out-button {
+  margin-left: auto;
+  color: white !important;
+} 
